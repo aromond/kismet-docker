@@ -1,0 +1,4 @@
+sudo steamos-readonly disable
+sudo pacman -S docker
+sudo systemctl start docker
+sudo docker build .
